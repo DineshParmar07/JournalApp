@@ -1,0 +1,23 @@
+#Configuration file -> Default profile
+
+spring:
+  application:
+    name : Journal App
+  data:
+    mongodb :
+      uri: mongodb+srv://Dinesh:Dineshdev@cluster1.epssyuu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
+      database: journaldb
+      auto-index-creation: true
+  main:
+      allow-circular-references : true
+
+server:
+  port: 8081
+
+#logging:
+#  level:
+#    com:
+#      ntorq:
+#        journalApp:
+#          service:
+#            UserService: OFF
